@@ -2,18 +2,8 @@
   display: flex
   position: relative
   flex-direction: column
-  padding-top: 142px
-  padding-bottom: 270px
-
-  background-image: url("../../img/hero.jpg")
-  background-position: center
-  background-size: cover
-  background-repeat: no-repeat
-  &__container
-    display: grid
-
-  //&__content
-
+  //padding-top: 142px
+  //padding-bottom: 270px
 
   &__title
     margin: 0
@@ -36,16 +26,19 @@
   &__register
     display: flex
     justify-content: space-between
-    background: $light-color
     border-radius: 0 20px 20px 0
-    padding-left: 5vw
+    padding-right: 265px
+    position: relative
+    z-index: 1
 
-  &--position
-    position: absolute
-    left: 0
-    margin-top: 608px
-    z-index: 10
-    width: 76.72vw
+    &::before
+      content: ""
+      background-color: $light-color
+      position: absolute
+      left: -300px
+      height: 100%
+      width: 300px
+      z-index: -1
 
   &__next
     background-color: $accent-color
@@ -59,35 +52,32 @@
     color: $light-color
 
   &__form
+    background: $light-color
     display: flex
+    align-items: center
+    border-radius: 0 20px 20px 0
+
+  &__input-container
+    display: flex
+    align-items: center
     justify-content: space-between
     gap: 40px
-    padding: 74px 100px 74px 0
+    width: 100%
+    padding: 20px 20px 20px 0
 
-  &__group
+  &__label
     display: flex
     flex-direction: column
     width: 225.25px
-    //height: 68px
-
-  &__label
-    margin: 0
-    margin-bottom: 12px
     font-family: $second-family solid
     text-transform: uppercase
     font-size: 16px
-    line-height: 19px
+    //line-height: 19px
     color: #767E86
+
+    span
+      margin: 0 0 12px
 
   &__input
     border: none
     border-bottom: 1px solid #000
-
-//form
-//  display: flex
-//  flex-direction: row
-//  justify-content: center
-//  align-items: center
-//
-//label, input, button
-//  margin: 5px
