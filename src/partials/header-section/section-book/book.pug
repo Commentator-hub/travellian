@@ -1,0 +1,31 @@
+section.book.inner-container
+
+    .book__content
+        h1.book__title Start your unforgettable <br> journey with us.
+        p.book__descr The best travel for your jouney begins now
+
+        .book__register
+            form.book__form
+                .book__input-container
+                    label.book__label
+                        span Destintaion
+                        input.book__input(type="text" name="country-name")
+
+                    label.book__label
+                        span Person
+                        select.book__input(name="person-select")
+                            option(value="")
+                            option(value="1") 1
+                            option(value="2") 2
+
+
+                    label.book__label
+                        span Check in
+                        input.book__input(type="date" name="date-check-in")
+
+                    label.book__label
+                        span Check out
+                        input.book__input(type="date" name="date-check-out")
+
+                .book__next
+                    a.book__link Book <br> Now
