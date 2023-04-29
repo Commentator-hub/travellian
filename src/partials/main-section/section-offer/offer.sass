@@ -1,0 +1,105 @@
+.offer
+  padding: 140px 0
+  position: relative
+  &__content
+    text-align: right
+    margin-bottom: 100px
+
+  &__slider
+  .main__button //position for main__button
+    display: flex
+    justify-content: flex-end
+    margin-top: -170px
+    left: 0
+    gap: 40px
+    position: absolute
+
+.offer__slider .slider
+  &__cards
+    display: flex
+    gap: 32px
+
+    &-item
+      display: flex
+      flex-direction: column
+      justify-content: flex-end
+      padding: 40px 24px
+      border-radius: 26px
+      min-height: 629px
+      min-width: 497px
+      background-color: #FFF8F1
+
+      background-repeat: no-repeat
+      background-position: top center
+      background-size: contain
+
+    &-title
+      margin: 0
+      margin-bottom: 8px
+      font-family: $third-family
+      font-weight: 400
+      font-size: 28px
+      color: $descr-title
+
+    &-rating
+      display: flex
+      margin-bottom: 24px
+
+      .star
+        color: #FFC107
+
+    &-descr
+      margin: 0
+      margin-bottom: 32.5px
+      font-family: $second-family
+      font-weight: 400
+      font-size: 18px
+      color: $title-color
+
+    &-inf
+      display: flex
+      justify-content: space-between
+
+
+    &-price
+      margin: 0
+      font-family: $second-family
+      font-size: 40px
+      line-height: 47px
+      color: $accent-color
+
+      &:before
+        content: "From"
+        margin-right: 8px
+        font-size: 20px
+        color: #767E86
+
+    &-details
+      padding: 20px 40px
+      border: none
+      cursor: pointer
+      color: $light-color
+      background-color: $accent-color
+      border-radius: 12px
+
+      font-family: $second-family
+      font-size: 20px
+      text-transform: uppercase
+      width: 159px
+
+      &:hover
+        background-color: $hover-back-color
+        color: $hover-color
+      &:active
+        background-color: $active-back-color
+        color: $active-color
+
+
+    .slider__cards-fone-1
+      background-image: url("/img/offer-1.jpg")
+
+    .slider__cards-fone-2
+      background-image: url("/img/offer-2.jpg")
+
+    .slider__cards-fone-3
+      background-image: url("/img/offer-3.jpg")

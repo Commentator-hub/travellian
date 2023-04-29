@@ -2,12 +2,12 @@
 <html lang="ru">
 <template data-type="pug" data-src="/partials/head.pug" />
   <body class="page__body">
-    <header class="header-section">
-      <template data-type="pug" data-src="/partials/header-section/section-main_header/header.pug" />
-      <template data-type="pug" data-src="/partials/header-section/section-book/book.pug" />
-    </header>
-
-    <main>main content</main>
+    <div class="wrapper">
+      <template data-type="pug" data-src="/partials/header-section/header-section.pug" />
+      <main>
+        <template data-type="pug" data-src="/partials/main-section/main-section.pug" />
+      </main>
+    </div>
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>
