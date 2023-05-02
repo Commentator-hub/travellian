@@ -1,32 +1,43 @@
-const carousel = document.querySelector('.popular__slider .slider__cards'),
-    firstCard = carousel.querySelectorAll('.slider__cards-item')[0],
-    arrowIcon = document.querySelectorAll('.popular__slider .main__button button');
+const carousel = document.querySelector('.popular__slider .carousel');
+const cards = carousel.querySelectorAll('.slider__cards-item');
+const arrowIcons = document.querySelectorAll('.popular__slider .main__button button');
 
-let isDragStart = false, prevPageX, prevScrollLeft;
-let firstCardWidth = firstCard.clientWidth + 32; // getting first card width & adding 32 gap/margin value
-arrowIcon.forEach(icon => {
+
+const DRAGGING_CLASS_NAME = 'dragging';
+
+const FLEX_GAP_BETWEEN_CARDS = 32;
+
+let isDragStart = false;
+let prevPageX;
+let prevScrollLeft;
+
+arrowIcons.forEach(icon => {
     icon.addEventListener('click', () => {
+        const firstCard = cards[0];
+        const firstCardWidth = firstCard.clientWidth + FLEX_GAP_BETWEEN_CARDS;
         carousel.scrollLeft += icon.classList.contains('prev') ? -firstCardWidth : firstCardWidth;
-        console.log(icon)
     })
 });
+
 const dragStart = (e) => {
     isDragStart = true;
     prevPageX = e.pageX;
     prevScrollLeft = carousel.scrollLeft;
 }
-const dragging = (e) => {
+
+const dragRun = (e) => {
     if (!isDragStart) return;
     e.preventDefault();
-    carousel.classList.add('dragging');
-    let positionDiff = e.pageX - prevPageX;
+    carousel.classList.add(DRAGGING_CLASS_NAME);
+    const positionDiff = e.pageX - prevPageX;
     carousel.scrollLeft = prevScrollLeft - positionDiff;
 }
+
 const dragStop = () => {
     isDragStart = false;
-    carousel.classList.remove('dragging');
+    carousel.classList.remove(DRAGGING_CLASS_NAME);
 }
 
 carousel.addEventListener('mousedown', dragStart);
-carousel.addEventListener('mousemove', dragging);
+carousel.addEventListener('mousemove', dragRun);
 carousel.addEventListener('mouseup', dragStop);
