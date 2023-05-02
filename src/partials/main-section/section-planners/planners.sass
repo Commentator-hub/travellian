@@ -1,0 +1,136 @@
+.planners
+  padding: 140px 15px
+  display: flex
+  align-items: center
+
+
+  &__content
+    margin-right: 100px
+
+    .title-appearance
+      white-space: nowrap
+
+    .descr-appearance
+      max-width: 394px
+      margin-bottom: 50px
+      font-size: 18px
+      line-height: 21px
+
+    &-button
+      position: relative
+      padding: 20px
+      background-color: $accent-color
+      border: none
+      border-radius: 12px
+      color: #fff
+      font-family: $second-family
+      font-size: 18px
+      line-height: 21px
+      cursor: pointer
+
+      &:hover
+        background-color: $hover-back-color
+        color: $hover-color
+      &:active
+        background-color: $active-back-color
+        color: $active-color
+
+      &::before
+        position: absolute
+        content: ""
+        top: -15px
+        left: -15px
+        width: 43px
+        height: 43px
+        background-color: $title-color
+        z-index: -10
+
+      &::after
+        position: absolute
+        content: ""
+        bottom: -15px
+        right: -15px
+        width: 43px
+        height: 43px
+        background-color: $descr-title
+        z-index: -10
+
+  h2
+    &:before
+      width: 231px
+      right: 0
+
+.planners__slider
+  //display: flex
+  overflow: hidden // How it works and why<:(
+.planners__slider .slider
+  &__cards
+    display: flex
+    gap: 32px
+    overflow: hidden
+    scroll-behavior: smooth
+    z-index: 100
+
+    &-item
+      min-width: 300px
+      min-height: 600px
+      transition: all 0.3s ease-in-out
+      cursor: pointer
+
+    &-img
+      transition: transform 0.3s ease-in-out
+      transform: translateY(140px)
+
+      &:active
+        transform: translateY(-10px)
+
+
+    &-hidden
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      align-items: center
+      //z-index: -1
+
+    &-name
+      margin: 0
+      margin-bottom: 12px
+      font-family: $second-family
+      font-size: 18px
+      font-weight: 400
+      line-height: 21px
+
+    &-price
+      margin: 0
+      font-family: $second-family
+      font-size: 18px
+      font-weight: 400
+      line-height: 21px
+
+    &-title
+      margin: 0
+      margin-bottom: 12px
+      font-family: $font-family
+      font-weight: 600
+      font-size: 28px
+      color: $title-color
+      line-height: 37px
+      flex-basis: 100%
+
+    &-rating
+      color: $star-color
+
+    &-duration
+      margin: 0
+      font-family: $second-family
+      font-size: 18px
+      font-weight: 400
+      line-height: 21px
+
+  .dragging
+    cursor: grab
+    scroll-behavior: auto
+
+  img
+    pointer-events: none
+

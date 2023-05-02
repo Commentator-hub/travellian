@@ -6,24 +6,35 @@
     margin-bottom: 100px
 
   &__slider
-  .main__button //position for main__button
-    display: flex
-    justify-content: flex-end
-    margin-top: -170px
-    left: 0
-    gap: 40px
-    position: absolute
+    .main__button //position for main__button
+      display: flex
+      justify-content: flex-end
+      margin-top: -170px
+      left: 0
+      gap: 40px
+      position: absolute
+
+  h2
+    &:before
+      width: 241px
+      right: 0
+      left: unset //Отменяет
+
 
 .offer__slider .slider
   &__cards
     display: flex
     gap: 32px
+    overflow: hidden
+    scroll-behavior: smooth
+
+    &-container
+      padding: 40px 24px
 
     &-item
       display: flex
       flex-direction: column
       justify-content: flex-end
-      padding: 40px 24px
       border-radius: 26px
       min-height: 629px
       min-width: 497px
@@ -32,6 +43,7 @@
       background-repeat: no-repeat
       background-position: top center
       background-size: contain
+      cursor: pointer
 
     &-title
       margin: 0
@@ -46,7 +58,7 @@
       margin-bottom: 24px
 
       .star
-        color: #FFC107
+        color: $star-color
 
     &-descr
       margin: 0
@@ -94,12 +106,9 @@
         background-color: $active-back-color
         color: $active-color
 
+    .dragging
+      cursor: grab
+      scroll-behavior: auto
 
-    .slider__cards-fone-1
-      background-image: url("/img/offer-1.jpg")
-
-    .slider__cards-fone-2
-      background-image: url("/img/offer-2.jpg")
-
-    .slider__cards-fone-3
-      background-image: url("/img/offer-3.jpg")
+    img
+      pointer-events: none

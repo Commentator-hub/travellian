@@ -25,19 +25,26 @@
     overflow: hidden
     scroll-behavior: smooth
 
+    &-img
+      position: absolute
+      //width: 497px
+      //height: 661px
+      top: 0
+      left: 0
+      z-index: -1
+
     &-item
+      position: relative
+
       display: flex
       flex-direction: column
       justify-content: flex-end
       padding: 40px 24px
-      background-position: center
-      background-size: cover
-      background-repeat: no-repeat
       min-width: 497px
       min-height: 661px
-      border-radius: 5%
-      background-color: grey
-      background-blend-mode: multiply
+      border-radius: 25px
+      background-color: rgba(128, 128, 128, 0.1)
+      //background-blend-mode: multiply
       transition: all 0.3s ease-in-out
       cursor: pointer
 
@@ -63,23 +70,6 @@
         fill: white
         margin-right: 16px
 
-    &-fone-1
-      background-image: url("/img/popular-destinations-1.jpg")
-
-    &-fone-2
-      background-image: url("/img/popular-destinations-2.jpg")
-
-    &-fone-3
-      background-image: url("/img/popular-destinations-3.jpg")
-
-    &-fone-4
-      background-image: url("/img/popular-destinations-4.jpg")
-
-    &-fone-5
-      background-image: url("/img/popular-destinations-4.jpg")
-
-    &-fone-6
-      background-image: url("/img/popular-destinations-4.jpg")
 
   .dragging
     cursor: grab

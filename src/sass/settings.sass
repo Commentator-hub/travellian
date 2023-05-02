@@ -86,6 +86,7 @@ a
   margin: 0 auto
 
 .title-appearance
+  justify-content: flex-end
   margin: 0
   margin-bottom: 52px
   font-family: $font-family
@@ -100,6 +101,14 @@ a
     position: absolute
     bottom: -20px
     left: 0
+    height: 3px
+    background-color: $accent-color
+
+  &:after
+    content: ""
+    position: absolute
+    bottom: -20px
+    right: 0
     height: 3px
     background-color: $accent-color
 
