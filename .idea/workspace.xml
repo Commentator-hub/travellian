@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e3b7c56-69e6-453c-bf4f-a79bdb3d0621" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/img/avatar-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/avatar-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/avatar-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/svg/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/svg/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/svg/pinterest.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/svg/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/slider-experiences.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/footer-section/footer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/footer-section/footer.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/travellian.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/svg/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/slider-gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/slider-gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/main-section.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/main-section.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-offer/offer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-offer/offer.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/slider-button/slider-button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/slider-button/slider-button.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/main.sass" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2PQbkNXSBv28HgGYcnRNbO2d0MH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/workspace/travellian/src/img/svg",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\travellian\src\img\svg" />
+      <recent name="C:\workspace\travellian\src\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e3b7c56-69e6-453c-bf4f-a79bdb3d0621" name="Changes" comment="" />
+      <created>1683397881701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683397881701</updated>
+      <workItem from="1683397883506" duration="1049000" />
+      <workItem from="1683450407853" duration="17249000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

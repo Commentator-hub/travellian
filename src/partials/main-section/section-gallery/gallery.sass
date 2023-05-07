@@ -1,0 +1,30 @@
+.gallery
+  padding: 140px 15px
+  &__content
+    position: relative
+    margin-bottom: 100px
+    .title-appearance
+      &:before
+        width: 283px
+    .main__button
+      position: absolute
+      right: 0
+      bottom: 0
+      gap: 40px
+
+.gallery__slider .slider
+  &__cards
+    display: flex
+    padding-top: 30px
+    gap: 32px
+    overflow: hidden
+    scroll-behavior: smooth
+
+    &-item
+      min-width: 365px
+      min-height: 570px
+      border-radius: 26px
+
+      &:hover
+        transform: translateY(-30px)
+        transition: 0.3s ease-in-out
