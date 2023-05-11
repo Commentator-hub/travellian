@@ -43,7 +43,6 @@ include ../../mixin/popular-slider
     ];
 
 section.popular.inner-container
-        +content('popular', description, false)
-            block content
-                +sliderButton('right')
-        +popularSlider('popular', data)
+    +content('popular', description, false)
+        +sliderButton('right')
+    +popularSlider('popular', data)

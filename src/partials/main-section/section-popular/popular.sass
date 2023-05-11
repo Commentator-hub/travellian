@@ -1,29 +1,20 @@
-.popular
+.popular // Попробовать вынести отдельным классом
   position: relative
-  padding: 140px 15px // Попробовать вынести отдельным классом
+  padding: 140px 15px
 
-  &__content
-    margin-bottom: 100px
-    position: relative
-
-  &-title-position
+  &-title-before-width
     &:before
       //white-space: nowrap
       width: 365px
 
-.button-position-right // Это можно будет вынести в setting
-  bottom: 0
-  right: 0
-  position: absolute
-
-.slider__cards-popular
+.popular-slider
   display: flex
   gap: 32px
   white-space: nowrap
   overflow: hidden
   scroll-behavior: smooth
 
-  &-img
+  &__img
     position: absolute
     //width: 497px
     //height: 661px
@@ -31,9 +22,8 @@
     left: 0
     z-index: -1
 
-  &-item
+  &__item
     position: relative
-
     display: flex
     flex-direction: column
     justify-content: flex-end
@@ -46,7 +36,7 @@
     transition: all 0.3s ease-in-out
     cursor: pointer
 
-  &-title
+  &__title
     margin: 0
     margin-bottom: 17px
     font-family: $font-family
@@ -55,7 +45,7 @@
     //line-height: 37px
     color: $light-color
 
-  &-descr
+  &__descr
     margin: 0
     font-family: $second-family regular
     font-size: 24px
@@ -68,11 +58,10 @@
       fill: white
       margin-right: 16px
 
+.dragging // Перенести в setting
+  font-size: 150px
+  cursor: grab
+  scroll-behavior: auto
 
-  .dragging
-    font-size: 150px
-    cursor: grab
-    scroll-behavior: auto
-
-    img
-      pointer-events: none
+  img
+    pointer-events: none

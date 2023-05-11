@@ -1,102 +1,54 @@
+include ../../mixin/content
+include ../../mixin/slider-button
+include ../../mixin/popular-slider
+-
+    let data1 = [
+        {
+            pathImg: 'offer-1',
+            nameDescription: '5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.',
+            nameCountry: 'Lisbon, Portugal',
+            namePrice: '€500'
+        },
+        {
+            pathImg: 'offer-2',
+            nameDescription: '5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.',
+            nameCountry: 'Athens, Greece',
+            namePrice: '€800'
+        },
+        {
+            pathImg: 'offer-3',
+            nameDescription: '5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.',
+            nameCountry: 'Rome, Italy',
+            namePrice: '€750'
+        },
+        {
+            pathImg: 'offer-3',
+            nameDescription: '5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.',
+            nameCountry: 'Rome, Italy',
+            namePrice: '€750'
+        },
+        {
+            pathImg: 'offer-3',
+            nameDescription: '5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.',
+            nameCountry: 'Rome, Italy',
+            namePrice: '€750'
+        },
+        {
+            pathImg: 'offer-3',
+            nameDescription: '5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.',
+            nameCountry: 'Rome, Italy',
+            namePrice: '€750'
+        }
+    ];
+-
+    let description1 = [
+        {
+            title: 'Special Offer',
+            subtitle: 'Check out our special offer and discounts'
+        }
+    ];
+
 section.offer.inner-container
-    .offer__content
-        h2.title-appearance Special Offer
-        p.descr-appearance Check out our special offer and discounts
-    .offer__slider
-        include ../../block/slider-button/slider-button
-        .slider__cards
-            .slider__cards-item.slider__cards-fone-1
-                img.slider__cards-img(src="/img/offer-1.png")
-                .slider__cards-container
-                    h3.slider__cards-title Lisbon, Portugal
-                    .slider__cards-rating
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                    p.slider__cards-descr 5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.
-                    .slider__cards-inf
-                        p.slider__cards-price €500
-                        button.slider__cards-details details
-            .slider__cards-item.slider__cards-fone-2
-                img.slider__cards-img(src="/img/offer-2.png")
-                .slider__cards-container
-                    h3.slider__cards-title Athens, Greece
-                    .slider__cards-rating
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                    p.slider__cards-descr 5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.
-                    .slider__cards-inf
-                        p.slider__cards-price €800
-                        button.slider__cards-details details
-            .slider__cards-item.slider__cards-fone-3
-                img.slider__cards-img(src="/img/offer-3.png")
-                .slider__cards-container
-                    h3.slider__cards-title Rome, Italy
-                    .slider__cards-rating
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                    p.slider__cards-descr 5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.
-                    .slider__cards-inf
-                        p.slider__cards-price €750
-                        button.slider__cards-details details
-            .slider__cards-item.slider__cards-fone-3
-                img.slider__cards-img(src="/img/offer-3.png")
-                .slider__cards-container
-                    h3.slider__cards-title Lisbon, Portugal
-                    .slider__cards-rating
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                    p.slider__cards-descr 5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.
-                    .slider__cards-inf
-                        p.slider__cards-price €500
-                        button.slider__cards-details details
-            .slider__cards-item.slider__cards-fone-3
-                img.slider__cards-img(src="/img/offer-3.png")
-                .slider__cards-container
-                    h3.slider__cards-title Lisbon, Portugal
-                    .slider__cards-rating
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                    p.slider__cards-descr 5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.
-                    .slider__cards-inf
-                        p.slider__cards-price €500
-                        button.slider__cards-details details
+    +content('offer', description1, true)
+        +sliderButton('left')
+    +offerSlider('offer', data1)
