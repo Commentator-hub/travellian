@@ -1,6 +1,6 @@
 const carouselXTwo = document.querySelector('.offer__slider .slider__cards'),
     firstCardXTwo = carouselXTwo.querySelectorAll('.offer__slider .slider__cards-item')[0],
-    arrowIconXTwo = document.querySelectorAll('.offer__slider .main__button button');
+    arrowIconXTwo = document.querySelectorAll('.offer__slider .main-button button');
 
 let isDragStartXTwo = false, prevPageXXTwo, prevScrollLeftXTwo; //prevPageX, prevScrollLeft
 let firstCardWidthXTwo = firstCardXTwo.clientWidth + 32; // getting first card width & adding 32 gap/margin value

@@ -1,0 +1,12 @@
+mixin content(name, des, addClass)
+    if addClass
+        div(class=name + '__content').content
+            each dataItem in des
+                h2.title-appearance(class=name + '-title-position')=dataItem.title
+                p.descr-appearance=dataItem.subtitle
+                //+sliderButton('right')
+    else
+        .content
+            each dataItem in des
+                h2.title-appearance(class=name + '-title-position')=dataItem.title
+                p.descr-appearance=dataItem.subtitle

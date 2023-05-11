@@ -1,0 +1,7 @@
+mixin popularSlider(name, data)
+        div(class='slider__cards-' + name).slider__cards.carousel
+            each dataItem in data
+                .slider__item
+                    img.slider__img(class='slider__cards-' + name)(src='/img/' + dataItem.pathImg + '.png')
+                    h3.slider__title=dataItem.nameAttractions
+                    p.slider__descr=dataItem.nameCountry

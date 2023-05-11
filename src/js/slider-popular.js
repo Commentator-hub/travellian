@@ -1,6 +1,6 @@
 const carousel = document.querySelector('.popular__slider .carousel');
 const cards = carousel.querySelectorAll('.slider__cards-item');
-const arrowIcons = document.querySelectorAll('.popular__slider .main__button button');
+const arrowIcons = document.querySelectorAll('.popular__slider .main-button button');
 
 
 const DRAGGING_CLASS_NAME = 'dragging';

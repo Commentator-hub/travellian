@@ -4,15 +4,21 @@ html
 *, *::before, *::after
   box-sizing: inherit
 
-.page
-  height: 100%
-  font-family: $font-family
-  -webkit-text-size-adjust: 100%
-
-.page__body
+h1, h2, h3, h4, h5
   margin: 0
-  min-width: 320px
-  min-height: 100%
+
+p
+  margin: 0
+
+//.page
+//  height: 100%
+//  font-family: $font-family
+//  -webkit-text-size-adjust: 100%
+
+//.page__body
+//  margin: 0
+//  min-width: 320px
+//  min-height: 100%
 
 img
   height: auto
@@ -80,14 +86,11 @@ a
   width: 100%
   background-color: #f4f5f5
 
-
 .wrapper
   max-width: 1920px
   margin: 0 auto
 
 .title-appearance
-  justify-content: flex-end
-  margin: 0
   margin-bottom: 52px
   font-family: $font-family
   font-size: 64px
@@ -104,22 +107,26 @@ a
     height: 3px
     background-color: $accent-color
 
-  &:after
-    content: ""
-    position: absolute
-    bottom: -20px
-    right: 0
-    height: 3px
-    background-color: $accent-color
+  //&:after
+  //  content: ""
+  //  position: absolute
+  //  bottom: -20px
+  //  right: 0
+  //  height: 3px
+  //  background-color: $accent-color
 
 .descr-appearance
-  margin: 0
   font-family: $second-family
   font-size: 24px
   font-weight: 400
   line-height: 28px
   color: $descr-title
 
-//.content-position
+.position-right
+  right: 0
+  bottom: 0
 
 
+.content
+  margin-bottom: 100px
+  position: relative

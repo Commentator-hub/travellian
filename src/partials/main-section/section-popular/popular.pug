@@ -1,32 +1,49 @@
-section.popular.inner-container
-    .popular__content
-        h2.title-appearance Popular Destinations
-        p.descr-appearance Most popular destinations around the world, from historical places to natural wonders.
-    .popular__slider
-        include ../../slider-button/slider-button
-        .slider__cards.carousel
-            .slider__cards-item
-                img.slider__cards-img(src="/img/popular-destinations-1.png")
-                h3.slider__cards-title Monument of Berlin
-                p.slider__cards-descr Berlin, Germany
-            .slider__cards-item
-                img.slider__cards-img(src="/img/popular-destinations-2.png")
-                h3.slider__cards-title Millennium Bridge
-                p.slider__cards-descr London, United Kingdom
-            .slider__cards-item
-                img.slider__cards-img(src="/img/popular-destinations-3.png")
-                h3.slider__cards-title Rialto Bridge
-                p.slider__cards-descr Venice, Italy
-            .slider__cards-item
-                img.slider__cards-img(src="/img/popular-destinations-4.png")
-                h3.slider__cards-title Кыргызста́н при Собянине
-                p.slider__cards-descr Александр, Петушария
-            .slider__cards-item
-                img.slider__cards-img(src="/img/popular-destinations-4.png")
-                h3.slider__cards-title Скажи Маше поменять Шрифты
-                p.slider__cards-descr Александр, Петушария
-            .slider__cards-item
-                img.slider__cards-img(src="/img/popular-destinations-4.png")
-                h3.slider__cards-title Кто живет рядом с горами Петух
-                p.slider__cards-descr Александр, Петушария
+include ../../mixin/content
+include ../../mixin/slider-button
+include ../../mixin/popular-slider
+-
+    let data = [
+        {
+        pathImg: 'popular-destinations-1',
+        nameAttractions: 'Monument of Berlin',
+        nameCountry: 'Berlin, Germany'
+        },
+        {
+        pathImg: 'popular-destinations-2',
+        nameAttractions: 'Millennium Bridge',
+        nameCountry: 'London, United Kingdom'
+        },
+        {
+        pathImg: 'popular-destinations-3',
+        nameAttractions: 'Rialto Bridge',
+        nameCountry: 'Venice, Italy'
+        },
+        {
+        pathImg: 'popular-destinations-4',
+        nameAttractions: 'Monument of Berlin',
+        nameCountry: 'Berlin, Germany'
+        },
+        {
+        pathImg: 'popular-destinations-4',
+        nameAttractions: 'Monument of Berlin',
+        nameCountry: 'Berlin, Germany'
+        },
+        {
+        pathImg: 'popular-destinations-4',
+        nameAttractions: 'Monument of Berlin',
+        nameCountry: 'Berlin, Germany'
+        }
+    ];
+-
+    let description = [
+        {
+        title: 'Popular Destinations',
+        subtitle: 'Most popular destinations around the world, from historical places to natural wonders.'
+        }
+    ];
 
+section.popular.inner-container
+        +content('popular', description, false)
+            block content
+                +sliderButton('right')
+        +popularSlider('popular', data)

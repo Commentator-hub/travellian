@@ -4,34 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e3b7c56-69e6-453c-bf4f-a79bdb3d0621" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/avatar-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/avatar-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/avatar-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/svg/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/svg/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/svg/pinterest.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/svg/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/slider-experiences.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/footer-section/footer.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/footer-section/footer.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/travellian.iml" beforeDir="false" />
+    <list default="true" id="1cd694b5-1027-4691-a59b-4957e78dc990" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/partials/block/logo/logo.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/block/logo/logo.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/header-section/header-content/header-content.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/header-section/header/header.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/header-section/header/header.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/mixin/content.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/mixin/popular-slider.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/mixin/slider-button.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/block.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/svg/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/background-image-header-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/background-image-header-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/background-image-header-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/background-image-header-4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/slider-experiences.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/slider-experiences.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/slider-gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/slider-gallery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/main-section/main-section.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/main-section.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/slider-offer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/slider-offer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/slider-popular.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/slider-popular.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/footer-section/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/footer-section/footer.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/footer-section/footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/footer-section/footer.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/head.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/head.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/header-section/header-section.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header-section/header-section.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/header-section/header-section.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header-section/header-section.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/header-section/section-book/book.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/header-section/section-book/book.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header-section/header-content/header-content.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/header-section/section-header/header.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/header-section/section-header/header.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-offer/offer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-offer/offer.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-offer/offer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-offer/offer.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/slider-button/slider-button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/slider-button/slider-button.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-popular/popular.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-popular/popular.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-popular/popular.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-popular/popular.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/slider-button/slider-button.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/block/slider-button/slider-button.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/slider-button/slider-button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/block/slider-button/slider-button.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/fonts.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/fonts.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/settings.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/settings.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/vars.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/vars.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,43 +56,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2PQbkNXSBv28HgGYcnRNbO2d0MH" />
+  <component name="ProjectId" id="2PamiMkUYzS67eiGO6pJ7SRxd0n" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/workspace/travellian/src/img/svg",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\workspace\travellian\src\img\svg" />
-      <recent name="C:\workspace\travellian\src\img" />
-    </key>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1e3b7c56-69e6-453c-bf4f-a79bdb3d0621" name="Changes" comment="" />
-      <created>1683397881701</created>
+      <changelist id="1cd694b5-1027-4691-a59b-4957e78dc990" name="Changes" comment="" />
+      <created>1683703694665</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1683397881701</updated>
-      <workItem from="1683397883506" duration="1049000" />
-      <workItem from="1683450407853" duration="17249000" />
+      <updated>1683703694665</updated>
+      <workItem from="1683703696975" duration="16548000" />
+      <workItem from="1683795978860" duration="325000" />
     </task>
     <servers />
   </component>

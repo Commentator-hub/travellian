@@ -1,74 +1,72 @@
 .popular
   position: relative
-  padding: 140px 0
+  padding: 140px 15px // Попробовать вынести отдельным классом
 
   &__content
     margin-bottom: 100px
+    position: relative
 
-  &__slider
-    .main__button //position for main__button
-      display: flex
-      justify-content: flex-end
-      margin-top: -170px
-      right: 0
-      gap: 40px
-      position: absolute
-  h2
+  &-title-position
     &:before
+      //white-space: nowrap
       width: 365px
 
-.popular__slider
-  .slider__cards
+.button-position-right // Это можно будет вынести в setting
+  bottom: 0
+  right: 0
+  position: absolute
+
+.slider__cards-popular
+  display: flex
+  gap: 32px
+  white-space: nowrap
+  overflow: hidden
+  scroll-behavior: smooth
+
+  &-img
+    position: absolute
+    //width: 497px
+    //height: 661px
+    top: 0
+    left: 0
+    z-index: -1
+
+  &-item
+    position: relative
+
     display: flex
-    gap: 32px
-    white-space: nowrap
-    overflow: hidden
-    scroll-behavior: smooth
+    flex-direction: column
+    justify-content: flex-end
+    padding: 40px 24px
+    min-width: 497px
+    min-height: 661px
+    border-radius: 25px
+    background-color: rgba(128, 128, 128, 0.1)
+    //background-blend-mode: multiply
+    transition: all 0.3s ease-in-out
+    cursor: pointer
 
-    &-img
-      position: absolute
-      //width: 497px
-      //height: 661px
-      top: 0
-      left: 0
-      z-index: -1
+  &-title
+    margin: 0
+    margin-bottom: 17px
+    font-family: $font-family
+    font-size: 28px
+    font-weight: 500
+    //line-height: 37px
+    color: $light-color
 
-    &-item
-      position: relative
+  &-descr
+    margin: 0
+    font-family: $second-family regular
+    font-size: 24px
+    font-weight: 400
+    //line-height: 28px
+    color: $light-color
 
-      display: flex
-      flex-direction: column
-      justify-content: flex-end
-      padding: 40px 24px
-      min-width: 497px
-      min-height: 661px
-      border-radius: 25px
-      background-color: rgba(128, 128, 128, 0.1)
-      //background-blend-mode: multiply
-      transition: all 0.3s ease-in-out
-      cursor: pointer
-
-    &-title
-      margin: 0
-      margin-bottom: 17px
-      font-family: $font-family
-      font-size: 28px
-      font-weight: 500
-      //line-height: 37px
-      color: $light-color
-
-    &-descr
-      margin: 0
-      font-family: $second-family regular
-      font-size: 24px
-      font-weight: 400
-      //line-height: 28px
-      color: $light-color
-
-      &:before
-        content: url("/img/svg/location.svg")
-        fill: white
-        margin-right: 16px
+    &:before
+      content: url("/img/svg/location.svg")
+      fill: white
+      margin-right: 16px
 
 
   .dragging

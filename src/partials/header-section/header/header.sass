@@ -1,0 +1,50 @@
+.header
+  padding-top: 32px
+  padding-bottom: 32px
+  margin-bottom: 150px
+
+  &__nav
+    display: flex
+    width: 100%
+    justify-content: space-between
+
+.nav
+  &__list
+    display: flex
+    align-items: center
+    gap: 32px
+
+  &__link
+    transition: color 0.3s ease-in-out
+    font-family: $second-family
+    font-size: 20px
+    font-weight: 400
+    line-height: 24px
+    color: #fff
+
+    &:hover
+      color: $accent-color
+      transition: 0.2s ease-in
+
+    &:active
+      color: $hover-color
+      transition: 0.2s ease-in
+
+    &--active
+      padding-bottom: 6px
+      border-bottom: 3px solid $accent-color
+      font-weight: 600
+
+    &--theme-orange
+      white-space: nowrap
+      padding: 20px 32px
+      background: $accent-color
+      border-radius: 12px
+
+      &:hover
+        color: $title-color
+        transition: 0.2s ease-in
+
+      &:active
+        color: $hover-color
+        transition: 0.2s ease-in
