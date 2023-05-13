@@ -1,0 +1,15 @@
+@mixin mobile
+  @media (min-width: 320px)
+    @content
+
+@mixin tablet
+  @media (max-width: 768px)
+    @content
+
+@mixin bigTablet
+  @media (max-width: 1152px)
+    @content
+
+@mixin desktop
+  @media (max-width: 1440px)
+    @content

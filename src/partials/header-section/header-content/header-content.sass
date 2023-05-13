@@ -25,7 +25,7 @@
     display: flex
     justify-content: space-between
     border-radius: 0 20px 20px 0
-    padding-right: 265px
+    //padding-right: 265px
     position: relative
     z-index: 1
 
@@ -55,6 +55,9 @@
 
     cursor: pointer
 
+    @include bigTablet
+      padding: 40px 20px
+
     &:hover
       color: $title-color
 
@@ -73,38 +76,63 @@
     justify-content: space-between
     gap: 40px
     width: 100%
-    padding: 20px 100px 20px 0
+    margin-right: 100px
+    //padding: 20px 100px 20px 0
+
+    @include bigTablet
+      margin-right: 5%
+
+    @include tablet
+      margin-right: 100px
+      flex-wrap: wrap
 
   &__label
     display: flex
     flex-direction: column
-    width: 225.25px
+    width: 225px
     font-family: $second-family
     font-weight: 400
     font-size: 16px
     text-transform: uppercase
     line-height: 19px
     color: $descr-title
+    //width: 225.25px
+
+    @include desktop
+      max-width: 16vw
+      //max-width: 195.75px
+
+    @include bigTablet
+      max-width: 13vw
+      //max-width: 158.5px
+
+    @include tablet
+      width: 50%
 
   &__input
-    margin-top: 12px
-    padding-bottom: 10px
+    //margin-top: 12px
     border: none
     border-bottom: 1px solid #000
     font-family: $font-family
     font-size: 20px
     background-color: $light-color
 
-  &__slider
+    height: 36px
+    appearance: none // Убрать это и добавить класс со стилями которые уже есть в setting, или дописать их сюда
+
+    @include tablet
+    //width: 100%
+
+  &-slider
     right: 0
-    bottom: 50%
+    bottom: 30%
+    position: absolute
 
 .slider
   display: flex
   flex-direction: column
   text-align: center
-  position: absolute
-
+  //position: absolute
 
   &__dot
     height: 16px
@@ -118,7 +146,7 @@
       background-color: $accent-color
       border: 1px solid #000
 
-  &__button
+  &-button-dot
     margin: 0
     margin-bottom: 16px
     padding: 0

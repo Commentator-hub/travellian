@@ -14,6 +14,9 @@
     align-items: center
     gap: 32px
 
+    @include bigTablet // Header не помещается, а потому скрываю меню в 1152px, а не 768px
+      display: none
+
   &__link
     transition: color 0.3s ease-in-out
     font-family: $second-family

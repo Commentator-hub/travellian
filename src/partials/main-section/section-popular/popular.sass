@@ -1,6 +1,5 @@
 .popular // Попробовать вынести отдельным классом
   position: relative
-  padding: 140px 15px
 
   &-title-before-width
     &:before
@@ -58,8 +57,8 @@
       fill: white
       margin-right: 16px
 
-.dragging // Перенести в setting
-  font-size: 150px
+.dragging // Перенести в setting, узнать почему приходится прописывать еще и здесь
+  font-size: 150px // ведь уже заданы такие же классы и стили в offer.sass
   cursor: grab
   scroll-behavior: auto
 

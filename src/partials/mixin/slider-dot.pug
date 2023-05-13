@@ -1,0 +1,8 @@
+mixin sliderDot(name, dotsCount)
+    div(class=name + '-slider').slider
+        - for (let i = 1; i <= dotsCount; i++)
+            span.slider__dot(class=(i === 1 ? 'slider__dot--current' : ''))
+        button.slider-button-dot.prev-slide
+            include ../../img/svg/chevron-up.svg
+        button.slider-button-dot.next-slide
+            include ../../img/svg/chevron-down.svg

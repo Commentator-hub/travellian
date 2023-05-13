@@ -1,0 +1,9 @@
+mixin card(name, data)
+    each dataItem in data
+        div(class=name + '-card').card
+            img(class=name + '-card__img').card-img(src='/img/'+ dataItem.pathImg + '.png')
+            div(class=name + '-card__descr').card-descr
+                p(class=name + '-title-appearance').title-appearance!=dataItem.title
+                p(class=name + '-descr-appearance').descr-appearance=dataItem.nameDescription
+                button(class=name + '-card-button').card-button Read More
+                    include ../../img/svg/arrow-right.svg

@@ -1,32 +1,44 @@
-const carouselXTwo = document.querySelector('.offer__slider .slider__cards'),
-    firstCardXTwo = carouselXTwo.querySelectorAll('.offer__slider .slider__cards-item')[0],
-    arrowIconXTwo = document.querySelectorAll('.offer__slider .main-button button');
+const carousel = document.querySelector('.offer-slider');
+const cards = carousel.querySelectorAll('.offer-slider__item');
+const arrowIcons = document.querySelectorAll('.offer button');
 
-let isDragStartXTwo = false, prevPageXXTwo, prevScrollLeftXTwo; //prevPageX, prevScrollLeft
-let firstCardWidthXTwo = firstCardXTwo.clientWidth + 32; // getting first card width & adding 32 gap/margin value
-arrowIconXTwo.forEach(icon => {
+
+const DRAGGING_CLASS_NAME = 'dragging';
+
+const FLEX_GAP_BETWEEN_CARDS = 32;
+
+let isDragStart = false;
+let prevPageX;
+let prevScrollLeft;
+
+arrowIcons.forEach(icon => {
     icon.addEventListener('click', () => {
-        carouselXTwo.scrollLeft += icon.classList.contains('prev') ? -firstCardWidthXTwo : firstCardWidthXTwo;
-        console.log(icon)
+        const firstCard = cards[0];
+        const firstCardWidth = firstCard.clientWidth + FLEX_GAP_BETWEEN_CARDS;
+        carousel.scrollLeft += icon.classList.contains('prev') ? -firstCardWidth : firstCardWidth;
     })
 });
-const dragStartXTwo = (e) => {
-    isDragStartXTwo = true;
-    prevPageXXTwo = e.pageX;
-    prevScrollLeftXTwo = carouselXTwo.scrollLeft;
-}
-const draggingXTwo = (e) => {
-    if (!isDragStartXTwo) return;
-    e.preventDefault();
-    carouselXTwo.classList.add('dragging');
-    let positionDiffXTwo = e.pageX - prevPageXXTwo;
-    carouselXTwo.scrollLeft = prevScrollLeftXTwo - positionDiffXTwo;
-}
-const dragStopXTwo = () => {
-    isDragStartXTwo = false;
-    carouselXTwo.classList.remove('dragging');
+
+
+const dragStart = (e) => {
+    isDragStart = true;
+    prevPageX = e.pageX;
+    prevScrollLeft = carousel.scrollLeft;
 }
 
-carouselXTwo.addEventListener('mousedown', dragStartXTwo);
-carouselXTwo.addEventListener('mousemove', draggingXTwo);
-carouselXTwo.addEventListener('mouseup', dragStopXTwo);
+const dragRun = (e) => {
+    if (!isDragStart) return;
+    e.preventDefault();
+    carousel.classList.add(DRAGGING_CLASS_NAME);
+    const positionDiff = e.pageX - prevPageX;
+    carousel.scrollLeft = prevScrollLeft - positionDiff;
+}
+
+const dragStop = () => {
+    isDragStart = false;
+    carousel.classList.remove(DRAGGING_CLASS_NAME);
+}
+
+carousel.addEventListener('mousedown', dragStart);
+carousel.addEventListener('mousemove', dragRun);
+carousel.addEventListener('mouseup', dragStop);

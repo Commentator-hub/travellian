@@ -1,5 +1,4 @@
 .offer // Попробовать вынести отдельным классом
-  padding: 140px 15px
   position: relative
 
   &-title-before-width
@@ -86,3 +85,11 @@
       color: $title-color
     &:active
       color: $hover-color
+
+.dragging // Перенести в setting
+  font-size: 150px
+  cursor: grab
+  scroll-behavior: auto
+
+  img
+    pointer-events: none

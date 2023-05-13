@@ -5,21 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cd694b5-1027-4691-a59b-4957e78dc990" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/partials/mixin/card.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/mixin/slider-dot.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/breakpoint.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/background-image-header-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/background-image-header-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/background-image-header-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/background-image-header-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/popular-destinations-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/popular-destinations-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/blog.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/blog-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/slider-offer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/slider-offer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/slider-popular.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/slider-popular.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/block/slider-button/slider-button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/block/slider-button/slider-button.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/header-section/header-content/header-content.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header-section/header-content/header-content.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/header-section/header-content/header-content.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header-section/header-content/header-content.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/header-section/header-section.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header-section/header-section.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/header-section/header/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header-section/header/header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-blog/blog.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-blog/blog.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-blog/blog.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-blog/blog.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-offer/offer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-offer/offer.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-offer/offer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-offer/offer.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-planners/planners.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-planners/planners.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-planners/planners.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-planners/planners.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-popular/popular.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-popular/popular.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-popular/popular.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-popular/popular.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/mixin/content.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/mixin/content.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/mixin/popular-slider.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/mixin/popular-slider.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/mixin/slider-button.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/mixin/slider-button.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/main.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/settings.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/settings.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/vars.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/vars.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +47,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/workspace/travellian/src/img",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/workspace/travellian/src/img&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspace\travellian\src\img" />
@@ -66,7 +79,10 @@
       <updated>1683703694665</updated>
       <workItem from="1683703696975" duration="16548000" />
       <workItem from="1683795978860" duration="6054000" />
-      <workItem from="1683828191708" duration="15840000" />
+      <workItem from="1683828191708" duration="15898000" />
+      <workItem from="1683881247591" duration="7922000" />
+      <workItem from="1683898988215" duration="15921000" />
+      <workItem from="1683971805495" duration="9797000" />
     </task>
     <servers />
   </component>

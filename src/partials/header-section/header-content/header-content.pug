@@ -1,24 +1,17 @@
+include ../../mixin/slider-dot
+
 section.book.inner-container
     .book__content
         h1.book__title Start your unforgettable <br> journey with us.
         p.book__descr The best travel for your jouney begins now
-        .book__slider.slider
-            span.slider__dot.slider__dot--current
-            span.slider__dot
-            span.slider__dot
-            span.slider__dot
-            span.slider__dot
-            button.slider__button.slider-button.prev-slide
-                include ../../../img/svg/chevron-up.svg
-            button.slider__button.slider-button.next-slide
-                include ../../../img/svg/chevron-down.svg
+        +sliderDot('book', 5)
     .book__register
         form.book__form
             .book__input-container
                 label.book__label Destintaion
                     input.book__input(type="text" name="country-name" value="Dubai")
-                label.book__label Person
-                    select.book__input(name="person-select")
+                label.book__label.book-select Person
+                    select.book__input.book-select (name="person-select")
                         option(value="1") 1
                         option(value="2" selected) 2
                 label.book__label Check in
