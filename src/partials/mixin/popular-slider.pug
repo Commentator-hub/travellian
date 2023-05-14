@@ -2,7 +2,10 @@ mixin popularSlider(name, data)
         div(class=name + '-slider').slider__cards.carousel
             each dataItem in data
                 div(class=name + '-slider__item').slider__item
-                    img.slider__img(class=name +'-slider__img')(src='/img/' + dataItem.pathImg + '.png')
+                    picture(class=name + '-slider__picture').slider__picture
+                        source(srcset='/img/' + dataItem.pathImgTablet + '.png' media='(max-width: 788px) and (min-width: 568px)')
+                        source(srcset='/img/' + dataItem.pathImgMobile + '.png' media='(max-width: 568px)')
+                        img.slider__img(class=name +'-slider__img')(src='/img/' + dataItem.pathImg + '.png')
                     h3(class=name + '-slider__title').slider__title=dataItem.nameAttractions
                     p(class=name + '-slider__descr').slider__descr=dataItem.nameCountry
 

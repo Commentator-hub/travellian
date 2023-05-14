@@ -5,33 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cd694b5-1027-4691-a59b-4957e78dc990" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/partials/mixin/card.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/partials/mixin/slider-dot.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/breakpoint.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/popular-destinations-1-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/popular-destinations-1-tablet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/popular-destinations-2-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/popular-destinations-3-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/popular-destinations-4-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/mixin/logo.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/background-image-header-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/background-image-header-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/blog.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/blog-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/slider-offer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/slider-offer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/slider-popular.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/slider-popular.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/block/logo/logo.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/block/logo/logo.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/block/logo/logo.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/footer-section/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/footer-section/footer.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/header-section/header-content/header-content.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header-section/header-content/header-content.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/header-section/header-content/header-content.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header-section/header-content/header-content.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/header-section/header-section.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header-section/header-section.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/header-section/header/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header-section/header/header.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/header-section/header/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header-section/header/header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-blog/blog.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-blog/blog.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-blog/blog.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-blog/blog.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-offer/offer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-offer/offer.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-offer/offer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-offer/offer.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-planners/planners.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-planners/planners.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-planners/planners.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-planners/planners.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-popular/popular.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-popular/popular.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-popular/popular.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-popular/popular.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/mixin/popular-slider.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/mixin/popular-slider.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/breakpoint.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/breakpoint.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/settings.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/settings.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +73,8 @@
       <workItem from="1683828191708" duration="15898000" />
       <workItem from="1683881247591" duration="7922000" />
       <workItem from="1683898988215" duration="15921000" />
-      <workItem from="1683971805495" duration="9797000" />
+      <workItem from="1683971805495" duration="25824000" />
+      <workItem from="1684069919796" duration="8991000" />
     </task>
     <servers />
   </component>

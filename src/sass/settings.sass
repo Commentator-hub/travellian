@@ -108,6 +108,10 @@ a
   color: $title-color
   position: relative
 
+  @include mobile
+    font-size: 40px
+    line-height: 53px
+
   &:before
     content: ""
     position: absolute
@@ -131,6 +135,10 @@ a
   line-height: 28px
   color: $descr-title
 
+  @include mobile
+    font-size: 18px
+    line-height: 21px
+
 //.position-right
 //  right: 0
 //  bottom: 0
@@ -138,6 +146,9 @@ a
 .button-position-right
   bottom: 0
   right: 0
+
+  @include mobile
+    right: 25%
 
 .button-position-left
   bottom: 0
@@ -149,3 +160,6 @@ a
 .content
   margin-bottom: 100px
   position: relative
+
+  @include mobile
+    position: unset
