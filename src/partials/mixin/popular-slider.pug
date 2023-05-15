@@ -13,7 +13,12 @@ mixin offerSlider(name, data)
     div(class=name + '-slider').slider__cards.carousel
         each dataItem in data
             div(class=name + '-slider__item').slider__item
-                img.slider__img(class=name + '-slider__img')(src='/img/' + dataItem.pathImg + '.png')
+                picture(class=name + '-slider__picture').slider__picture
+                    source(srcset='/img/' + dataItem.pathImgDesktop + '.png' media='(max-width: 1440px) and (min-width: 1152px)')
+                    source(srcset='/img/' + dataItem.pathImgBigTablet + '.png' media='(max-width: 1152px) and (min-width: 788px)')
+                    source(srcset='/img/' + dataItem.pathImgTablet + '.png' media='(max-width: 788px) and (min-width: 568px)')
+                    source(srcset='/img/' + dataItem.pathImgMobile + '.png' media='(max-width: 568px)')
+                    img.slider__img(class=name + '-slider__img')(src='/img/' + dataItem.pathImg + '.png')
                 div(class=name + '-slider__container').slider__container
                     h3(class=name + '-slider__title').slider__title=dataItem.nameCountry
                     div(class=name + '-slider__rating').slider__rating
@@ -24,3 +29,23 @@ mixin offerSlider(name, data)
                     div(class=name + '-slider__inf').slider__inf
                         p(class=name + '-slider__price').slider__price=dataItem.namePrice
                         button(class=name + '-slider__details').slider__details details
+
+
+mixin plannersSlider(name, data)
+    div(class=name + '-slider').slider__cards.carousel
+        each dataItem in data
+            div(class=name + '-slider__item').slider__item
+                picture(class=name + '-slider__picture').slider__picture
+                    source(srcset='/img/' + dataItem.pathImgBigTablet + '.png' media='(max-width: 1152px) and (min-width: 788px)')
+                    source(srcset='/img/' + dataItem.pathImgTablet + '.png' media='(max-width: 788px) and (min-width: 568px)')
+                    source(srcset='/img/' + dataItem.pathImgMobile + '.png' media='(max-width: 568px)')
+                    img.slider__img(class=name + '-slider__img')(src='/img/' + dataItem.pathImg + '.png')
+                div(class=name + '-slider__hidden').slider__hidden
+                    p(class=name + '-slider__name').slider__name=dataItem.nameGuided
+                    p(class=name + '-slider__price').slider__price=dataItem.namePrice
+                    h3(class=name + '-slider__title').slider__title=dataItem.nameCountry
+                    div(class=name + '-slider__rating').slider__rating
+                        - for (let i = 0; i < 5; i++)
+                            span.star
+                                include ../../img/svg/star.svg
+                    p(class=name + '-slider__duration').slider__duration=dataItem.nameDay

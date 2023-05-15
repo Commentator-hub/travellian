@@ -99,7 +99,7 @@ a
   margin: 0 auto
 
 .title-appearance
-  display: inline-block
+  //display: inline-block
   margin-bottom: 52px
   font-family: $font-family
   font-size: 64px
@@ -127,6 +127,9 @@ a
   //  right: 0
   //  height: 3px
   //  background-color: $accent-color
+.wrapper-descr-button
+  display: flex
+  justify-content: space-between
 
 .descr-appearance
   font-family: $second-family
@@ -147,8 +150,8 @@ a
   bottom: 0
   right: 0
 
-  @include mobile
-    right: 25%
+  //@include mobile
+  //  right: 25%
 
 .button-position-left
   bottom: 0
@@ -160,6 +163,9 @@ a
 .content
   margin-bottom: 100px
   position: relative
+
+  @include tablet
+    position: unset
 
   @include mobile
     position: unset

@@ -1,13 +1,15 @@
 mixin content(name, des, addClass)
     if addClass
-        div.position-content.content
+        div(class=name + '-content').position-content.content
             each dataItem in des
                 h2(class=name + '-title-before-width').title-appearance=dataItem.title
-                p.descr-appearance=dataItem.subtitle
-                block
+                div(class=name + '-wrapper-descr-button').wrapper-descr-button
+                    p(class=name + '-descr-appearance').descr-appearance=dataItem.subtitle
+                    block
     else
-        .content
+        div(class=name + '-content').content
             each dataItem in des
                 h2(class=name + '-title-before-width').title-appearance=dataItem.title
-                p.descr-appearance=dataItem.subtitle
-                block
+                div(class=name + '-wrapper-descr-button').wrapper-descr-button
+                    p(class=name + '-descr-appearance').descr-appearance=dataItem.subtitle
+                    block

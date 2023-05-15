@@ -1,23 +1,44 @@
-const carouselXThree = document.querySelector('.planners__slider .slider__cards');
-let isDragStartXThree = false, prevPageXXThree, prevScrollLeftXThree;
+const carousel = document.querySelector('.planners-slider');
+const cards = carousel.querySelectorAll('.planners-slider__item');
+const arrowIcons = document.querySelectorAll('.planners button');
 
-const dragStartXThree = (e) => {
-    isDragStartXThree = true;
-    prevPageXXThree = e.pageX;
-    prevScrollLeftXThree = carouselXThree.scrollLeft;
+
+const DRAGGING_CLASS_NAME = 'dragging';
+
+const FLEX_GAP_BETWEEN_CARDS = 32;
+
+let isDragStart = false;
+let prevPageX;
+let prevScrollLeft;
+
+arrowIcons.forEach(icon => {
+    icon.addEventListener('click', () => {
+        const firstCard = cards[0];
+        const firstCardWidth = firstCard.clientWidth + FLEX_GAP_BETWEEN_CARDS;
+        carousel.scrollLeft += icon.classList.contains('prev') ? -firstCardWidth : firstCardWidth;
+    })
+});
+
+
+const dragStart = (e) => {
+    isDragStart = true;
+    prevPageX = e.pageX;
+    prevScrollLeft = carousel.scrollLeft;
 }
-const draggingXThree = (e) => {
-    if (!isDragStartXThree) return;
+
+const dragRun = (e) => {
+    if (!isDragStart) return;
     e.preventDefault();
-    carouselXThree.classList.add('dragging');
-    let positionDiffXThree = e.pageX - prevPageXXThree;
-    carouselXThree.scrollLeft = prevScrollLeftXThree - positionDiffXThree;
-}
-const dragStopXThree = () => {
-    isDragStartXThree = false;
-    carouselXThree.classList.remove('dragging');
+    carousel.classList.add(DRAGGING_CLASS_NAME);
+    const positionDiff = e.pageX - prevPageX;
+    carousel.scrollLeft = prevScrollLeft - positionDiff;
 }
 
-carouselXThree.addEventListener('mousedown', dragStartXThree);
-carouselXThree.addEventListener('mousemove', draggingXThree);
-carouselXThree.addEventListener('mouseup', dragStopXThree);
+const dragStop = () => {
+    isDragStart = false;
+    carousel.classList.remove(DRAGGING_CLASS_NAME);
+}
+
+carousel.addEventListener('mousedown', dragStart);
+carousel.addEventListener('mousemove', dragRun);
+carousel.addEventListener('mouseup', dragStop);

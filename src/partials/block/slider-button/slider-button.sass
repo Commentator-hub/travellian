@@ -1,7 +1,15 @@
 .slider-button
-  position: absolute
+  //position: absolute
   display: flex
   gap: 40px
+
+  @include tablet
+    position: absolute
+    //right: 50%
+    left: 40%
+
+  @include mobile
+    right: 25%
 
   &__appearance
     padding: 20px 28px

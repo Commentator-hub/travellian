@@ -1,134 +1,83 @@
-section.planners.inner-container.main-container
-    .planners__content
-        h2.title-appearance Trip Planners
-        p.descr-appearance 20 years from now you will be more disappointed by the things that you didn’t do. Stop regretting and start travelling, start throwing off the bowlines.
-        button.planners__content-button View all trip plans
-    .planners__slider
-        .slider__cards
-            .slider__cards-item
-                img.slider__cards-img(src="/img/planners-1.png")
-                .slider__cards-hidden
-                    p.slider__cards-name Guided Tour
-                    p.slider__cards-price €99/Day
-                    h3.slider__cards-title Paris City Tour
-                    .slider__cards-rating
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                    p.slider__cards-duration 7 Days tour
-            .slider__cards-item
-                img.slider__cards-img(src="/img/planners-2.png")
-                .slider__cards-hidden
-                    p.slider__cards-name Guided Tour
-                    p.slider__cards-price €99/Day
-                    h3.slider__cards-title Paris City Tour
-                    .slider__cards-rating
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                    p.slider__cards-duration 7 Days tour
-            .slider__cards-item
-                img.slider__cards-img(src="/img/planners-3.png")
-                .slider__cards-hidden
-                    p.slider__cards-name Guided Tour
-                    p.slider__cards-price €99/Day
-                    h3.slider__cards-title Paris City Tour
-                    .slider__cards-rating
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                    p.slider__cards-duration 7 Days tour
-            .slider__cards-item
-                img.slider__cards-img(src="/img/planners-4.png")
-                .slider__cards-hidden
-                    p.slider__cards-name Guided Tour
-                    p.slider__cards-price €99/Day
-                    h3.slider__cards-title Paris City Tour
-                    .slider__cards-rating
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                    p.slider__cards-duration 7 Days tour
-            .slider__cards-item
-                img.slider__cards-img(src="/img/planners-4.png")
-                .slider__cards-hidden
-                    p.slider__cards-name Guided Tour
-                    p.slider__cards-price €99/Day
-                    h3.slider__cards-title Paris City Tour
-                    .slider__cards-rating
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                    p.slider__cards-duration 7 Days tour
-            .slider__cards-item
-                img.slider__cards-img(src="/img/planners-4.png")
-                .slider__cards-hidden
-                    p.slider__cards-name Guided Tour
-                    p.slider__cards-price €99/Day
-                    h3.slider__cards-title Paris City Tour
-                    .slider__cards-rating
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                    p.slider__cards-duration 7 Days tour
-            .slider__cards-item
-                img.slider__cards-img(src="/img/planners-4.png")
-                .slider__cards-hidden
-                    p.slider__cards-name Guided Tour
-                    p.slider__cards-price €99/Day
-                    h3.slider__cards-title Paris City Tour
-                    .slider__cards-rating
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                        span.star
-                            include ../../../img/svg/star.svg
-                    p.slider__cards-duration 7 Days tour
+include ../../mixin/content
+include ../../mixin/popular-slider
 
+-
+    let data3 = [
+        {
+            pathImg: 'planners-1',
+            pathImgBigTablet: 'planners-1-bigTablet',
+            pathImgTablet: 'planners-1-tablet',
+            pathImgMobile: 'planners-1-mobile',
+            nameGuided: 'Guided Tour',
+            nameCountry: 'Paris City Tour',
+            namePrice: '€99/Day',
+            nameDay: '7 Days tour'
+        },
+        {
+            pathImg: 'planners-2',
+            pathImgBigTablet: 'planners-2-bigTablet',
+            pathImgTablet: 'planners-2-tablet',
+            pathImgMobile: 'planners-2-mobile',
+            nameGuided: 'Guided Tour',
+            nameDescription: '5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.',
+            nameCountry: 'Paris City Tour',
+            namePrice: '€99/Day',
+            nameDay: '7 Days tour'
+        },
+        {
+            pathImg: 'planners-3',
+            pathImgBigTablet: 'planners-3-bigTablet',
+            pathImgTablet: 'planners-3-tablet',
+            pathImgMobile: 'planners-3-mobile',
+            nameGuided: 'Guided Tour',
+            nameDescription: '5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.',
+            nameCountry: 'Paris City Tour',
+            namePrice: '€99/Day',
+            nameDay: '7 Days tour'
+        },
+        {
+            pathImg: 'planners-3',
+            pathImgBigTablet: 'planners-3-bigTablet',
+            pathImgTablet: 'planners-4-tablet',
+            pathImgMobile: 'planners-4-mobile',
+            nameGuided: 'Guided Tour',
+            nameDescription: '5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.',
+            nameCountry: 'Paris City Tour',
+            namePrice: '€99/Day',
+            nameDay: '7 Days tour'
+        },
+        {
+            pathImg: 'planners-3',
+            pathImgBigTablet: 'planners-3-bigTablet',
+            pathImgTablet: 'planners-4-tablet',
+            pathImgMobile: 'planners-4-mobile',
+            nameGuided: 'Guided Tour',
+            nameDescription: '5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.',
+            nameCountry: 'Paris City Tour',
+            namePrice: '€99/Day',
+            nameDay: '7 Days tour'
+        },
+        {
+            pathImg: 'planners-4',
+            pathImgBigTablet: 'planners-3-bigTablet',
+            pathImgTablet: 'planners-4-tablet',
+            pathImgMobile: 'planners-4-mobile',
+            nameGuided: 'Guided Tour',
+            nameDescription: '5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.',
+            nameCountry: 'Paris City Tour',
+            namePrice: '€99/Day',
+            nameDay: '7 Days tour'
+        }
+    ];
+-
+    let description3 = [
+        {
+            title: 'Trip Planners',
+            subtitle: '20 years from now you will be more disappointed by the things that you didn’t do. Stop regretting and start travelling, start throwing off the bowlines.'
+        }
+    ];
+
+section.planners.inner-container.main-container
+    +content('planners', description3, false)
+        button.planners__content-button View all trip plans
+    +plannersSlider('planners', data3)

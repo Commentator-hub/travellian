@@ -1,133 +1,182 @@
 .planners
   display: flex
   align-items: center
+  gap: 100px
+  padding-top: 0
 
-  &__content
-    margin-right: 100px
+  @include tablet
+    flex-direction: column
+    gap: 40px
 
-    .title-appearance
-      white-space: nowrap
-
-    .descr-appearance
-      max-width: 394px
-      margin-bottom: 50px
-      font-size: 18px
-      line-height: 21px
-
-    &-button
-      position: relative
-      padding: 20px
-      background-color: $accent-color
-      border: none
-      border-radius: 12px
-      color: #fff
-      font-family: $second-family
-      font-size: 18px
-      line-height: 21px
-      cursor: pointer
-
-      &:hover
-        background-color: $hover-back-color
-        color: $hover-color
-      &:active
-        background-color: $active-back-color
-        color: $active-color
-
-      &::before
-        position: absolute
-        content: ""
-        top: -15px
-        left: -15px
-        width: 43px
-        height: 43px
-        background-color: $title-color
-        z-index: -10
-
-      &::after
-        position: absolute
-        content: ""
-        bottom: -15px
-        right: -15px
-        width: 43px
-        height: 43px
-        background-color: $descr-title
-        z-index: -10
-
-  h2
+  &-title-before-width
+    white-space: nowrap
     &:before
       width: 231px
-      right: 0
 
-.planners__slider
-  //display: flex
-  overflow: hidden // How it works and why<:(
-.planners__slider .slider
-  &__cards
+  &-wrapper-descr-button
     display: flex
-    gap: 32px
-    overflow: hidden
-    scroll-behavior: smooth
-    z-index: 100
+    flex-direction: column
 
-    &-item
-      min-width: 300px
-      min-height: 600px
-      transition: all 0.3s ease-in-out
-      cursor: pointer
+  &-descr-appearance
+    max-width: 394px
+    margin-bottom: 50px
+    font-size: 18px
+    line-height: 21px
 
-    &-img
-      transition: transform 0.3s ease-in-out
-      transform: translateY(140px)
+  &__content-button
+    position: relative
+    padding: 20px
+    width: 186px
+    background-color: $accent-color
+    border: none
+    border-radius: 12px
+    color: #fff
+    font-family: $second-family
+    font-size: 18px
+    line-height: 21px
+    cursor: pointer
 
-      &:active
-        transform: translateY(-10px)
-
-
-    &-hidden
-      display: flex
-      flex-wrap: wrap
-      justify-content: space-between
-      align-items: center
-      //z-index: -1
-
-    &-name
-      margin: 0
-      margin-bottom: 12px
-      font-family: $second-family
-      font-size: 18px
-      font-weight: 400
-      line-height: 21px
-
-    &-price
-      margin: 0
-      font-family: $second-family
-      font-size: 18px
-      font-weight: 400
-      line-height: 21px
-
-    &-title
-      margin: 0
-      margin-bottom: 12px
-      font-family: $font-family
-      font-weight: 600
-      font-size: 28px
+    &:hover
       color: $title-color
-      line-height: 37px
-      flex-basis: 100%
+    &:active
+      color: $hover-color
 
-    &-rating
-      color: $star-color
+    &::before
+      position: absolute
+      content: ""
+      top: -15px
+      left: -15px
+      width: 43px
+      height: 43px
+      background-color: $title-color
+      z-index: -10
 
-    &-duration
-      margin: 0
-      font-family: $second-family
+    &::after
+      position: absolute
+      content: ""
+      bottom: -15px
+      right: -15px
+      width: 43px
+      height: 43px
+      background-color: $descr-title
+      z-index: -10
+
+
+
+//.planners-slider
+//  //display: flex
+//  overflow: hidden // How it works and why<:(
+.planners-slider
+  padding-top: 20px
+  display: flex
+  gap: 32px
+  overflow: hidden
+  scroll-behavior: smooth
+  z-index: 100
+
+  @include bigTablet
+    padding-bottom: 30px
+
+  @include tablet
+    flex-direction: column
+
+  &__item
+    min-width: 300px
+    min-height: 600px
+    transition: all 0.3s ease-in-out
+    cursor: pointer
+
+    @include bigTablet
+      min-width: 250px
+      min-height: 350px
+
+    @include mobile
+      width: 288px
+      min-height: 320px
+
+  &__img
+    transition: transform 0.3s ease-in-out
+    transform: translateY(140px)
+
+    @include tablet
+      transform: unset
+
+    &:active
+      transform: translateY(-10px)
+
+      @include tablet
+        transform: unset
+
+  &__hidden
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+    margin-top: 20px
+    //z-index: -1
+
+  &__name
+    margin: 0
+    margin-bottom: 12px
+    font-family: $second-family
+    font-size: 18px
+    font-weight: 400
+    line-height: 21px
+
+    @include tablet
+      font-size: 24px
+      line-height: 28px
+
+    @include mobile
       font-size: 18px
-      font-weight: 400
       line-height: 21px
 
-  .dragging
-    cursor: grab
-    scroll-behavior: auto
+  &__price
+    margin: 0
+    font-family: $second-family
+    font-size: 18px
+    font-weight: 400
+    line-height: 21px
+
+    @include tablet
+      font-size: 24px
+      line-height: 28px
+
+  &__title
+    margin: 0
+    margin-bottom: 12px
+    font-family: $font-family
+    font-weight: 600
+    font-size: 28px
+    color: $title-color
+    line-height: 37px
+    flex-basis: 100%
+
+    @include tablet
+      font-size: 32px
+      line-height: 43px
+
+    @include mobile
+      font-size: 28px
+      line-height: 37px
+
+  &__rating
+    color: $star-color
+
+  &__duration
+    margin: 0
+    font-family: $second-family
+    font-size: 18px
+    font-weight: 400
+    line-height: 21px
+
+    @include tablet
+      font-size: 24px
+      line-height: 28px
+
+.dragging
+  cursor: grab
+  scroll-behavior: auto
 
   img
     pointer-events: none

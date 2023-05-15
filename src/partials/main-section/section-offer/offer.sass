@@ -7,11 +7,17 @@
       right: 0
       //left: unset //Отменяет
 
+  &-wrapper-descr-button
+    flex-direction: row-reverse
+
 .offer-slider
   display: flex
   gap: 32px
   overflow: hidden
   scroll-behavior: smooth
+
+  @include tablet
+    margin-bottom: 100px
 
   &__item
     display: flex
@@ -27,8 +33,25 @@
     background-size: contain
     cursor: pointer
 
+    @include desktop
+      //width: 390px
+      min-width: 437px
+
+    @include bigTablet
+      min-width: 341px
+
+    @include tablet
+      min-width: 728px
+      min-height: 274px
+
+    @include mobile
+      min-width: 288px
+
   &__container
     padding: 40px 24px
+
+    @include bigTablet
+      padding: 20px 24px
 
   &__title
     margin-bottom: 8px
@@ -51,9 +74,20 @@
     font-size: 18px
     color: $title-color
 
+    @include desktop
+      //width: 390px
+      //width: 437px
+
   &__inf
     display: flex
     justify-content: space-between
+    align-items: center
+
+    @include  mobile
+      flex-direction: column
+      justify-content: flex-start
+      align-items: flex-start
+      gap: 20px
 
   &__price
     margin: 0
@@ -61,6 +95,10 @@
     font-size: 40px
     line-height: 47px
     color: $accent-color
+
+    @include bigTablet
+      font-size: 28px
+      line-height: 33px
 
     &:before
       content: "From"
@@ -80,6 +118,10 @@
     font-size: 20px
     text-transform: uppercase
     width: 159px
+
+    @include bigTablet
+      width: 127px
+      padding: 16px 24px
 
     &:hover
       color: $title-color
