@@ -1,6 +1,13 @@
-mixin sliderButton(name)
-    .slider-button(class='button-position-' + name)
-        button.slider-button__appearance.prev
-            include ../../img/svg/left-arrow.svg
-        button.slider-button__appearance.next
-            include ../../img/svg/right-arrow.svg
+mixin sliderButton(classname, pos)
+    if (pos == true)
+        div(class=classname + '-slider-button').slider-button.slider-button--position
+            button.slider-button__appearance.prev
+                include ../../img/svg/left-arrow.svg
+            button.slider-button__appearance.next
+                include ../../img/svg/right-arrow.svg
+    else
+        div(class=classname + '-slider-button').slider-button
+            button.slider-button__appearance.prev
+                include ../../img/svg/left-arrow.svg
+            button.slider-button__appearance.next
+                include ../../img/svg/right-arrow.svg

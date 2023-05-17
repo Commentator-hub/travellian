@@ -1,0 +1,9 @@
+mixin columnsSVG(name, data)
+    each dataItem in data
+        div(class=name + '-column').column
+            h4(class=name + '-column__title').column__title=dataItem.text
+            ul(class=name + '-column__list').column__list
+                each link in dataItem.links
+                    li(class=name + '-column__item').column__item
+                        a(class=name + '-column__link').column__link
+                            img(class=name + '-column__img')(src='../img/svg/' + link.links + '.svg')

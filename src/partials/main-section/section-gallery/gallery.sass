@@ -1,29 +1,56 @@
 .gallery
+  position: relative
+  &-title-before-width
+    &:before
+      width: 283px
+
+      @include mobile
+        width: 288px
   &__content
     position: relative
     margin-bottom: 100px
-    .title-appearance
-      &:before
-        width: 283px
-    .main-button
-      position: absolute
-      right: 0
-      bottom: 0
-      gap: 40px
 
-.gallery__slider .slider
-  &__cards
-    display: flex
-    padding-top: 30px
-    gap: 32px
-    overflow: hidden
-    scroll-behavior: smooth
+.gallery-slider
+  display: flex
+  padding-top: 30px
+  gap: 32px
+  overflow: hidden
+  scroll-behavior: smooth
 
-    &-item
-      min-width: 365px
-      min-height: 570px
-      border-radius: 26px
+  @include tablet
+    flex-wrap: wrap
+    flex-direction: column
+    height: 1550px
+    margin-bottom: 40px
 
-      &:hover
-        transform: translateY(-30px)
-        transition: 0.3s ease-in-out
+  &__item
+    min-width: 365px
+    min-height: 570px
+    border-radius: 26px
+
+    @include desktop
+      min-width: 320px
+      min-height: 469px
+
+    @include bigTablet
+      min-width: 248px
+      min-height: 351px
+
+    @include tablet
+      width: 100%
+      height: 351px
+
+    @include mobile
+      min-width: 288px
+      min-height: 320px
+
+    &:hover
+      transform: translateY(-30px)
+      transition: 0.3s ease-in-out
+
+.dragging
+  cursor: grab
+  scroll-behavior: auto
+
+  img
+    pointer-events: none

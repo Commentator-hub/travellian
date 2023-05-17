@@ -1,5 +1,5 @@
 include ../../mixin/content
-include ../../mixin/slider-button
+//include ../../mixin/slider-button
 include ../../mixin/popular-slider
 -
     let data1 = [
@@ -74,5 +74,5 @@ include ../../mixin/popular-slider
 
 section.offer.inner-container.main-container
     +content('offer', description1, true)
-        +sliderButton('left')
+        +sliderButton('offer', true)
     +offerSlider('offer', data1)

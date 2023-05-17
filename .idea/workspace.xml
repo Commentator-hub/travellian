@@ -5,36 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cd694b5-1027-4691-a59b-4957e78dc990" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/offer-1-bigTablet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/offer-1-desktop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/offer-1-mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/offer-1-tablet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/offer-2-bigTablet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/offer-2-desktop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/offer-3-bigTablet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/offer-3-desktop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/planners-1-bigTablet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/planners-1-mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/planners-1-tablet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/planners-2-bigTablet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/planners-2-mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/planners-2-tablet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/planners-3-bigTablet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/planners-3-mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/planners-3-tablet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/planners-4-mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/planners-4-tablet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/gallery-1-bigTablet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/gallery-1-desktop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/gallery-1-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/gallery-1-tablet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/gallery-2-bigTablet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/gallery-2-desktop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/gallery-2-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/gallery-2-tablet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/gallery-3-bigTablet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/gallery-3-desktop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/gallery-3-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/gallery-3-tablet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/gallery-4-bigTablet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/gallery-4-desktop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/gallery-4-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/gallery-4-tablet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/mixin/columns-svg.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/mixin/footer-nav.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/mixin/newsletter-form.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/slider-planners.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/slider-planners.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/block/slider-button/slider-button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/block/slider-button/slider-button.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/header-section/header-content/header-content.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header-section/header-content/header-content.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/slider-experiences.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/slider-experiences.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/slider-gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/slider-gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/block/logo/logo.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/logo.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/block/slider-button/slider-button.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/block/slider-button/slider-button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/slider-button.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/footer-section/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/footer-section/footer.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/footer-section/footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/footer-section/footer.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/head.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/head.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/header-section/header/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header-section/header/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/header-section/header/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header-section/header/header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-experiences/experiences.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-gallery/gallery.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-offer/offer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-offer/offer.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-offer/offer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-offer/offer.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-planners/planners.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-planners/planners.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-planners/planners.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-planners/planners.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-popular/popular.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-popular/popular.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/main-section/section-popular/popular.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/main-section/section-popular/popular.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/mixin/content.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/mixin/content.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/partials/mixin/popular-slider.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/mixin/popular-slider.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/mixin/slider-button.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/mixin/slider-button.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/block.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/block.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/settings.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/settings.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,25 +61,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/chat-GPT",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/workspace/travellian/src/img&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspace\travellian\src\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\travellian\src\sass" />
       <recent name="C:\workspace\travellian\src\img" />
     </key>
   </component>
@@ -88,7 +100,9 @@
       <workItem from="1683971805495" duration="25824000" />
       <workItem from="1684069919796" duration="9089000" />
       <workItem from="1684142755439" duration="4259000" />
-      <workItem from="1684160814847" duration="21174000" />
+      <workItem from="1684160814847" duration="21799000" />
+      <workItem from="1684229682184" duration="32779000" />
+      <workItem from="1684313744372" duration="14802000" />
     </task>
     <servers />
   </component>

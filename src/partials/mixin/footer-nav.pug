@@ -1,0 +1,18 @@
+include ../mixin/logo
+
+mixin footerNav(name, data)
+    div(class=name + '-logo').logo
+        +logo('footer')
+        div(class=name + '-copy').copy Copyright © Travellian 2020 All rights reserved
+    each dataItem in data
+        div(class=name + '-column').column
+            h4(class=name + '-column__title').column__title=dataItem.title
+            ul(class=name + '-column__list').column__list
+                each link in dataItem.links
+                    - if (typeof link === 'object')
+                        li(class=name + '-column__item').column__item
+                            a(class=name + '-column__link').column__link=link.text
+                    - else
+                        li(class=name + '-column__item').column__item
+                            a(class=name + '-column__link').column__link=link
+    block

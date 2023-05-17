@@ -1,0 +1,9 @@
+mixin newsletter(name, data)
+    each dataItem in data
+        div(class=name + '-newsletter').newsletter
+            div(class=name + '-newsletter__wrapper').newsletter__wrapper
+                p(class=name + '-newsletter__title').newsletter__title=dataItem.title
+                form(class=name + '-newsletter__form').newsletter__form
+                    label(class=name + '-newsletter__label').newsletter__label=dataItem.nameLabel
+                        input(class=name + '-newsletter__input').newsletter__input(type="email" name="email" placeholder="Enter your email")
+                    button(class=name + '-newsletter__button').newsletter__button=dataItem.nameButton

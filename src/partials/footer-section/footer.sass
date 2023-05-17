@@ -4,6 +4,10 @@
   padding: 240px 15px 140px 15px
   background-color: $title-color
 
+  @include tablet
+    flex-direction: column
+    gap: 60px
+
   &__logo
     &-copy
       margin: 0
@@ -14,9 +18,6 @@
       color: #fff
 
   &__column
-    .media-position
-      display: flex
-      gap: 24px
     &-title
       margin: 0
       margin-bottom: 16px
@@ -30,6 +31,10 @@
       padding: 0
       margin: 0
       list-style: none
+
+      &--position
+        display: flex
+        gap: 24px
 
     &-item
       margin-bottom: 12px

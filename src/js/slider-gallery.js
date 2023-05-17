@@ -1,6 +1,6 @@
-const carousel = document.querySelector('.gallery__slider .carousel');
-const cards = carousel.querySelectorAll('.gallery__slider .slider__cards-item');
-const arrowIcons = document.querySelectorAll('.gallery__content .main-button button');
+const carousel = document.querySelector('.gallery-slider');
+const cards = carousel.querySelectorAll('.gallery-slider__item');
+const arrowIcons = document.querySelectorAll('.gallery button');
 
 
 const DRAGGING_CLASS_NAME = 'dragging';
@@ -18,6 +18,7 @@ arrowIcons.forEach(icon => {
         carousel.scrollLeft += icon.classList.contains('prev') ? -firstCardWidth : firstCardWidth;
     })
 });
+
 
 const dragStart = (e) => {
     isDragStart = true;

@@ -49,3 +49,31 @@ mixin plannersSlider(name, data)
                             span.star
                                 include ../../img/svg/star.svg
                     p(class=name + '-slider__duration').slider__duration=dataItem.nameDay
+
+mixin gallerySlider(name, data)
+    div(class=name + '-slider').slider__cards.carousel
+        each dataItem in data
+            div(class=name + '-slider__item').slider__item
+                picture(class=name + '-slider__picture').slider__picture
+                    source(srcset='/img/' + dataItem.pathImgDesktop + '.png' media='(max-width: 1440px) and (min-width: 1152px)')
+                    source(srcset='/img/' + dataItem.pathImgBigTablet + '.png' media='(max-width: 1152px) and (min-width: 788px)')
+                    source(srcset='/img/' + dataItem.pathImgTablet + '.png' media='(max-width: 788px) and (min-width: 568px)')
+                    source(srcset='/img/' + dataItem.pathImgMobile + '.png' media='(max-width: 568px)')
+                    img.slider__img(class=name + '-slider__img')(src='/img/' + dataItem.pathImg + '.png')
+
+
+mixin experiencesSlider(name, data)
+    div(class=name + '-slider').slider__cards.carousel
+        each dataItem in data
+            div(class=name + '-slider__item').slider__item
+                picture(class=name + '-slider__picture').slider__picture
+                    img.slider__img(class=name + '-slider__img')(src='/img/' + dataItem.pathImg + '.png')
+                p(class=name + '-slider__review').slider__review=dataItem.nameReview
+                div(class=name + '-slider__rating').slider__rating
+                    - for (let i = 0; i < 5; i++)
+                        span.star
+                            include ../../img/svg/star.svg
+                p(class=name + '-slider__author').slider__author=dataItem.nameAuthor
+                p(class=name + '-slider__profession').slider__profession=dataItem.nameProfession
+
+
